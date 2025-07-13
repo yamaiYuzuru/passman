@@ -1,0 +1,9 @@
+---
+import PasswordListIsland from "../components/PasswordListIsland";
+import BaseLayout from "../layout/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <h1 class="text-3xl font-bold mb-4 text-center">🔒 Meine Passwörter</h1>
+  <PasswordListIsland client:load />
+</BaseLayout>

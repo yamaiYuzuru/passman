@@ -1,0 +1,11 @@
+---
+import LoginIsland from "../components/LoginIsland";
+import BaseLayout from "../layout/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <h1 class="text-3xl font-bold mb-4 text-center">🔐 PassMan Login</h1>
+  <div class="bg-white p-6 rounded shadow">
+    <LoginIsland client:load />
+  </div>
+</BaseLayout>

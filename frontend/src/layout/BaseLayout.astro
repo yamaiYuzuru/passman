@@ -1,0 +1,15 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title><slot name="title" /></title>
+  </head>
+  <body class="bg-gray-100 text-gray-900 font-sans min-h-screen">
+    <main class="max-w-3xl mx-auto p-4">
+      <slot />
+    </main>
+  </body>
+</html>
